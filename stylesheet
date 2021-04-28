@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--------------------------------------------------------------------------
+============================================================================
+============================================================================
+
+
+                ╭━╮╭━┳━━┳━━━┳━━━━┳╮╱╱╭━━━┳━━━━┳━━━┳━━━╮
+                ┃┃╰╯┃┣┫┣┫╭━╮┃╭╮╭╮┃┃╱╱┃╭━━┫╭╮╭╮┃╭━╮┃╭━━╯
+                ┃╭╮╭╮┃┃┃┃╰━━╋╯┃┃╰┫┃╱╱┃╰━━╋╯┃┃╰┫┃╱┃┃╰━━╮
+                ┃┃┃┃┃┃┃┃╰━━╮┃╱┃┃╱┃┃╱╭┫╭━━╯╱┃┃╱┃┃╱┃┃╭━━╯
+                ┃┃┃┃┃┣┫┣┫╰━╯┃╱┃┃╱┃╰━╯┃╰━━╮╱┃┃╱┃╰━╯┃╰━━╮
+                ╰╯╰╯╰┻━━┻━━━╯╱╰╯╱╰━━━┻━━━╯╱╰╯╱╰━━━┻━━━╯
+
+
+============================================================================
+
+                               theme by merc
+                            mistletoe / grisha 
+
+============================================================================
+============================================================================
+
+        - poppins by india type foundry
+        - cappuccicons
+            - https://cappuccicons.com/
+        
+============================================================================
+    
+        REGARDING THIS THEME:
+        
+        - the theme for MISTLETOE THEMES was created
+        by merc (mistletoe) for use on tumblr.com. please
+        do not do the following:
+        
+            - replicate / reproduce
+            - use as "inspiration"
+            - frankenstein
+                i.e. pick apart and use on your theme
+            - steal the code
+
+============================================================================
+
+          basically, don't be /that/ asshole, alright? thanks.
+
+============================================================================
+
+                        !!! HOW TO EDIT THIS THEME !!!
+          
+          Section 2 Description
+            - ctrl + f "EDIT "SECTION 2" TEXT HERE"
+          Section 3 Links
+            - ctrl + f "EDIT "SOCIAL" LINKS HERE"
+            - you can add as many as you want, but there is a section for 10 
+            additional links so i'd keep this short if i were you
+          Affiliates
+            - ctrl + f "EDIT AFFILIATES HERE"
+            - you can post as many as you want 
+            - recommend square images
+          Icons
+            - want to use different icons? visit: https://cappuccicons.com/
+            - select an icon name and place it in the icon box
+          
+          USING A DIFFERENT FONT
+          - If you do not like "Poppins", the default font for this blog, 
+          do a ctrl+f for "poppins" and then replace ALL with the name of
+          the font of your choice. 
+          - PLEASE NOTE: Your font has to be loaded on this blog. You can
+          go to fonts.google.com to grab a link for your own font. 
+
+============================================================================
+============================================================================
+--------------------------------------------------------------------------->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{title}</title>
+<link rel="shortcut icon" href="{Favicon}">
+
+<!-- installs -->
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- icon font by sol / themehive -->
+<link href="//solrainha.github.io/honeybee/honeybee.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="//pull.cappuccicons.com/cpf.js"></script>
+
+
+<!-- unnested captions / neothm -->
+<script src="https://static.tumblr.com/wgg6svp/OoTofxa0c/unnest.min.js"></script>
+
+<script> $(function(){  $('article').unnest({ 
+    yourCaption: ".caption", //your caption selector, the div wrapping {Caption}
+    wrapName: ".tumblr_parent", //the name of the captions’ new wrapper
+    newCaptionUsername: false, //if the user adds a new caption, following a series of captions, show their username above the caption
+    originalPostCaptionUsername: false, //for the original captions, or a user-added caption that previously didn’t have any, have their username on it
+    tumblrAvatars: true, //”dashboard style” caption, have the avatar of the blog next to the username
+    tumblrAvatarClass: ".tumblr_avatar", //class of the avatar next to the username
+    usernameColon: true //if turned to false, removes the colon at the end of usernames
+  }); }); </script> 
+
+<!-- meta tags -->
+
+  <meta name="text:blog name title" content="mistletoe."/>
+  <meta name="text:blog subtitle" content=""/>
+  <meta name="color:borders" content="#ffffff"/>
+  <meta name="color:background" content="#f5f5f5"/>
+  <meta name="color:main text" content="#656565"/>
+  <meta name="color:accent" content="#cfb57e"/>
+  <meta name="color:light accent" content="#fdf5e5"/>
+  <meta name="color:dark accent" content="#8f733a"/>
+  <meta name="color:tag color" content="#868686"/>
+  <meta name="image:header" content="https://i.postimg.cc/6wpPs5Lk/BG.png"/>
+  
+  <meta name="text:letter spacing" content="1"/>
+  <meta name="text:main font size" content="12"/>
+  
+  <meta name="text:description title" content="mistletoe themes"/>
+  <meta name="image:description image" content="https://i.postimg.cc/N0TN2YXb/1.png"/>
+  <meta name="text:section 2 title" content="updates"/>
+  <meta name="image:section 2 image" content="https://i.postimg.cc/hvhTxbwg/21.png"/>
+  <meta name="text:section 3 title" content="social"/>
+  <meta name="image:section 3 image" content="https://i.postimg.cc/c4gfLhwB/27.png"/>
+  
+  <meta name="text:menu link 1 text" content="send a message"/>
+  <meta name="text:menu link 1 url" content="/ask"/>
+  <meta name="text:menu link 1 icon" content="chat-bubble-o"/>
+
+  <meta name="text:menu link 2 text" content="view my codes"/>
+  <meta name="text:menu link 2 url" content="/"/>
+  <meta name="text:menu link 2 icon" content="code"/>
+
+  <meta name="text:menu link 3 text" content=""/>
+  <meta name="text:menu link 3 url" content="/"/>
+  <meta name="text:menu link 3 icon" content="magic-wand-o"/>
+
+  <meta name="text:menu link 4 text" content=""/>
+  <meta name="text:menu link 4 url" content="/"/>
+  <meta name="text:menu link 4 icon" content="shooting-star-o"/>
+
+  <meta name="text:menu link 5 text" content=""/>
+  <meta name="text:menu link 5 url" content="/"/>
+  <meta name="text:menu link 5 icon" content="coffee-cup-o"/>
+
+  <meta name="text:quick link 1 url" content="/ask"/>
+  <meta name="text:quick link 1 text" content="message"/>
+  <meta name="text:quick link 2 url" content=""/>
+  <meta name="text:quick link 2 text" content=""/>
+  <meta name="text:quick link 3 url" content=""/>
+  <meta name="text:quick link 3 text" content=""/>
+  <meta name="text:quick link 4 url" content=""/>
+  <meta name="text:quick link 4 text" content=""/>
+  <meta name="text:quick link 5 url" content=""/>
+  <meta name="text:quick link 5 text" content=""/>
+  <meta name="text:quick link 6 url" content=""/>
+  <meta name="text:quick link 6 text" content=""/>
+  <meta name="text:quick link 7 url" content=""/>
+  <meta name="text:quick link 7 text" content=""/>
+  <meta name="text:quick link 8 url" content=""/>
+  <meta name="text:quick link 8 text" content=""/>
+  <meta name="text:quick link 9 url" content=""/>
+  <meta name="text:quick link 9 text" content=""/>
+  <meta name="text:quick link 10 url" content=""/>
+  <meta name="text:quick link 10 text" content=""/>
+    
+  <meta name="text:bottom bar title" content="about merc"/>
+  <meta name="text:bottom bar subtitle" content="the girl behind the codes"/>
+  <meta name="text:bottom bar description" content="this is where you write a long description."/>
+  
+  <meta name="text:affiliates title"/>
+  
+
+<!--- TOOLTIPS --->
+	<script src="//dl.dropbox.com/s/4jdfup6iccopmej/smt.js"></script>
+
+	<script>
+	(function($){
+	$(document).ready(function(){
+	$("[title]").style_my_tooltips({
+	tip_follows_cursor:true,
+	tip_delay_time:130,
+	tip_fade_speed:130,
+	attribute:"title"
+	});
+	});
+	})(jQuery);
+	</script>
+	
+	<!-- slideout -->
+	
+
+
+  
+<!-- css -->
+<style type='text/css'>
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+  background-color: #e6e6e6;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: {color:accent};
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb {
+  border: 5px solid {color:borders};
+}
+
+#s-m-t-tooltip{
+	max-width:300px;
+	z-index:10000000000000000000000000000000000;
+	margin: 15px;
+	padding: 5px;
+	background: {color:accent}; 
+	font-family: poppins;
+	font-size: 12px;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	color: #fff;
+	border: 1px solid {color:dark accent};
+	border-radius: 3px;
+    text-shadow: -1px -1px 0 {color:dark accent}, 1px -1px 0 {color:dark accent}, -1px 1px 0 {color:dark accent}, 1px 1px 0 {color:dark accent};
+	letter-spacing: 1.5px;
+}
+
+
+body {
+    margin: 0px;
+    background-color:{color:background};
+    font: {text:main font size}px 'poppins';
+    color: {color:main text};
+    
+}
+a, a:visited, a:link {
+    color: {color:accent};
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a:hover, i {
+    color: {color:dark accent};
+}
+ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 30px;
+}
+
+ul li:before {
+  position: absolute;
+  left: 15px;
+  vertical-align: baseline!important;
+  content: '›';
+}
+.pagenotes {
+  {block: IndexPage}
+  display: none!important;
+  {/block: IndexPage}
+  width: calc(100% - 40px);
+  padding: 20px;
+  flex: 1;
+  flex-basis: 100%;
+  text-align:left;
+}
+
+.pagenotes img {
+  display: none!important;
+}
+
+.pagenotes li {
+  list-style-type: none;
+  padding: 2px 0px;
+  text-align: left;
+  margin: 0 0 0 -40px;
+}
+#top, #left, #right, #bottom {
+    position: fixed;
+    z-index: 1001;
+    background-color: {color:borders};
+}
+#top {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 30px;
+    width: 100vw;
+}
+#bottom {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100vw;
+}
+#left {
+    float: left;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 100vh;
+}
+#right {
+    float: right;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 30px;
+    height: 100vh;
+}
+#notif {
+    float: left;
+    position: fixed;
+    left: 0px;
+    top: 10%;
+    background-color: {color:accent};
+    color: {color:borders};
+    font: 35px 'poppins';
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    z-index: 1002;
+    padding: 20px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    
+}
+.notifSlide {
+    position:fixed;
+    height:100%;
+    background: rgba(255,255,255,0.5);
+    border-left: 1px solid {color:borders};
+    width:200px;
+    right:0px;
+    margin-right: -200px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.notifSlide.notifOpen {
+    width: 100vw;
+}
+.notifSlide .box {
+    font: 72pt 'poppins';
+    font-weight: 800;
+    text-align: center;
+    color: {color:accent};
+    flex: 1;
+    padding: 25px;
+    text-shadow: -1px -1px 0 {color:dark accent};, 1px -1px 0 {color:dark accent}, -1px 1px 0 {color:dark accent}, 1px 1px 0 {color:dark accent};
+
+}
+.notifSlide .box a {
+    color: {color:accent};
+    text-decoration: none;
+}
+
+.notifSlide .box a span {
+    font-size: 50pt;
+}
+#header {
+    background-position: center center;
+    height: calc(100vh - 60px);
+    width: calc(100% - 60px);
+    position: relative;
+    margin: 30px;
+    background-image:url({image:header});
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header a {
+    color: {color:borders};
+    text-decoration: none;
+}
+#header .headText {
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    height: 110px;
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+#header .headText h1 {
+    font: 72pt 'poppins';
+    letter-spacing: -5px;
+    text-transform: lowercase;
+    color: {color:borders};
+    font-weighT: 800;
+    line-height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#header .headText h2 {
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 100%;
+    margin: 0px;
+    padding: 0px;
+    color: {color:borders};
+    font-weight: 600;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(50%,{color:accent}),color-stop(50%,transparent));
+    background-image: -webkit-linear-gradient(bottom,{color:accent} 50%,transparent 50%);
+    background-image: linear-gradient(0deg,{color:accent} 50%,transparent 50%);
+    display: inline-block;
+}
+#wrapper {
+    min-height: 500px;
+    width: calc(100% - 60px);
+    margin: 30px;
+}
+footer {
+    display: block;
+    background-color: {color:borders};
+    font-size: 11px;
+    text-align: justify;
+    padding: 50px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    z-index: 1001;
+    position: relative;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+}
+footer section {
+    flex: 1 auto;
+    padding: 30px;
+    max-width: 25%;
+}
+footer section b {
+    color: {color:accent};
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(50%,{color:background}),color-stop(50%,transparent));
+    background-image: -webkit-linear-gradient(bottom,{color:background} 50%,transparent 50%);
+    background-image: linear-gradient(0deg,{color:background} 50%,transparent 50%);
+    letter-spacing: -1px;
+    font-size: 20px;
+}
+footer section .quicklinks {
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    padding: 20px;
+}
+footer section .quicklinks row {
+    flex: 1;
+    font-size: 12px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    text-align: left;
+}
+footer section .quicklinks row a {
+    display: block;
+    text-decoration: none;
+    color: {color:main text};
+    transition-duration: 0.5s;
+}
+footer section .quicklinks row a:hover {
+    letter-spacing: 2px;
+}
+footer section .quicklinks row a span, u, b {
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(50%,{color:light accent}),color-stop(50%,transparent));
+    background-image: -webkit-linear-gradient(bottom,{color:light accent} 50%,transparent 50%);
+    background-image: linear-gradient(0deg,{color:light accent} 50%,transparent 50%);
+    text-decoration: none;
+}
+footer section creators {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer section creators img {
+    border: 3px solid {color:background};
+    border-radius: 100%;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+}
+#wrapper {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+#wrapper .sidebar {
+    width: 250px;
+    max-width: 250px;
+    min-width: 200px;
+    flex: 1;
+    margin-right: 25px;
+}
+#wrapper .sidebar .sideBox {
+    margin-bottom: 25px;
+}
+#wrapper .sidebar .sideBox .sideHead {
+    background-color: {color:borders};
+    margin-bottom: 1px;
+    font: 12px 'poppins';
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#wrapper .sidebar .sideBox .sideHead .sideText {
+    flex: 1;
+    text-align: right;
+}
+#wrapper .sidebar .sideBox .sideHead .sideText span {
+    
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(50%,{color:light accent}),color-stop(50%,transparent));
+    background-image: -webkit-linear-gradient(bottom,{color:light accent} 50%,transparent 50%);
+    background-image: linear-gradient(0deg,{color:light accent} 50%,transparent 50%);
+}
+#wrapper .sidebar .sideBox .sideHead .sideImg {
+    border: 3px solid {color:background};
+    border-radius: 100%;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+}
+#wrapper .sidebar .sideBox .sideHead .sideImg img {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+#wrapper .sidebar .sideBox .sideBody {
+    padding: 30px;
+    font: 11px 'poppins';
+    letter-spacing: {text:letter spacing}px;
+    text-align: justify;
+    font-weight: 500;
+    background-color:{color:borders};
+}
+#wrapper .sidebar .sideBox .sideBody2 {
+    padding: 30px;
+    font: 11px 'poppins';
+    letter-spacing: 1px;
+    text-align: right;
+    font-weight: 500;
+    background-color:{color:borders};
+    line-height: 20px;
+}
+#wrapper .sidebar .sideBox .sideBody2 b {
+    text-align: left;
+    float: left;
+}
+#wrapper .sidebar .sideBox .sideBody2 a {
+    display: block;
+}
+.postTop {
+    background-color: {color:borders};
+    margin-bottom: 1px;
+    font: 12px 'poppins';
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-transform: lowercase;
+}
+.postTop .postDate {
+    flex: 1;
+    text-align: left;
+}
+.postTop .reblogImg {
+    flex: 1;
+    text-align: right;
+    border: 3px solid {color:background};
+    border-radius: 100%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    max-width: 30px;
+}
+.postTop .reblogImg img {
+    width: 30px;
+    height: 30px;
+}
+.postBot {
+    background-color: {color:borders};
+    margin-top: 1px;
+    font: 12px 'poppins';
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    text-transform: lowercase;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    
+}
+.postBot .controls {
+    flex: 1;
+    text-align: left;
+}
+.postBot .noteCount {
+    text-align: right;
+}
+.postBot .noteCount a {
+    color: {color:tag color};
+}
+.posts {
+    display: block;
+    width: 500px;
+    min-width: 500px;
+    max-width: 500px;
+    flex: 1;
+}
+.post {
+    background-color: {color:borders};
+    display: block;
+    position: relative;
+}
+.post.chat {
+    padding: 20px;
+}
+.post.chat ul {
+	position: relative;
+	list-style: none;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+.post.chat ul li:before {
+	content: "»";
+	position: absolute;
+	left: 0;
+}
+.post.chat span.label {
+    font-weight: bold;
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(50%,{color:light accent}),color-stop(50%,transparent));
+    background-image: -webkit-linear-gradient(bottom,{color:light accent} 50%,transparent 50%);
+    background-image: linear-gradient(0deg,{color:light accent} 50%,transparent 50%);text-decoration: none;}
+.post.text {
+    padding: 25px;
+}
+.post.quote {
+    padding: 20px;
+}
+.post.quote blockquote {
+    font-size: 25px;
+    z-index: 5;
+    position: relative;
+    text-indent: 25px;
+}
+.post.quote blockquote::before {
+    content: "❝";
+    float: left;
+    position: absolute;
+    opacity: 0.5;
+    font-size:50px;
+    left: -30px;
+    top: -20px;
+    color: {color:accent};
+    margin-right: 10px;
+}
+.post .caption {
+    padding: 25px;
+}
+.post.link {
+    
+}
+.post.link .link-name {
+    display: block;
+    padding: 25px 50px;
+    background-color: #fbfbfb;
+    font-size: 15px;
+    border-bottom:1px solid {color:background;};
+}
+.question {
+    border-bottom: 1px solid {color:background};
+    background-color: {color:borders};
+    padding: 0px;
+    font: '12px' poppins;
+}
+.question .asker {
+    text-align: right;
+    color: {color:main text};
+    font-size: 16px;
+    padding: 25px;
+    border-bottom:1px solid #f5f5f5;
+}
+.question .asker a {
+        background-image: -webkit-gradient(linear,left bottom,left top,color-stop(30%,{color:light accent}),color-stop(30%,transparent));
+    background-image: -webkit-linear-gradient(bottom,{color:light accent} 30%,transparent 30%);
+    background-image: linear-gradient(0deg,{color:light accent} 30%,transparent 30%);
+    text-decoration: none;
+    padding-bottom: 0px;
+    padding: 0px;
+}
+.question .asker-question {
+    padding: 25px 50px;
+    background-color: #fbfbfb;
+}
+.question .asker-question span {
+    
+        background-image: -webkit-gradient(linear,left bottom,left top,color-stop(30%,{color:light accent}),color-stop(30%,transparent));
+    background-image: -webkit-linear-gradient(bottom,{color:light accent} 30%,transparent 30%);
+    background-image: linear-gradient(0deg,{color:light accent} 30%,transparent 30%);
+}
+.question .asker-avatar {
+    float: left;
+    width: 30px;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid {color:background};
+}
+.replies {
+    padding: 25px;
+    background-color: {color:borders};
+}
+/** custom like + reblog **/
+svg {
+   width:10px;
+   height:auto;
+   opacity:.5;
+   padding:1px;
+   display:block;
+   overflow:visible;
+}
+.controls a {
+   position:relative;
+   display:inline-block;
+   overflow:hidden;
+   padding:5px;
+   width:12px;
+   height:12px;
+}
+.controls .reblog {
+   opacity:.93;
+}
+.controls .reblog svg {
+   width:10px;
+   margin-top:1px;
+}
+.controls .like .liked + svg {
+   opacity:1;
+}
+.controls .like .liked + svg path {
+   fill:#ec5a5a;
+}
+.controls .like .like_button {
+   position:relative;
+}
+.controls .like .like_button iframe {
+   position:absolute;
+   top:0;
+   left:0;
+   bottom:0;
+   right:0;
+   z-index:2;
+   opacity:0;
+}
+.pagi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.pagi a {
+    display: block;
+    flex: 1;
+    color: {color:borders};
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: {color:accent};
+    text-align: center;
+    max-width: 15px;
+    height: 15px;
+    line-height: 15px;
+}
+blockquote {
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+}
+iframe.tmblr-iframe { 
+    top:30px !important;
+    right: 30px;
+}
+.ccontrols { position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10001;
+        margin-right: 30px;
+    margin-top: 30px;} 
+
+.ccontrols a {
+    display:block;
+    float:left;
+    margin:4px!important;
+    width:13px;
+    height:13px;
+    background:{color:borders};/* change this to change the background of the links */
+    padding:5px;
+    line-height:1!important;}
+
+.ccontrols a svg {
+    width:13px;
+    height:13px;}
+
+.ccontrols a svg path {
+    fill:{color:dark accent};/* change this to change the color of the links */
+    transition:all 0.6s ease-in-out;
+    -webkit-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -ms-transition:all 0.6s ease-in-out;}
+
+.ccontrols a:hover svg path {
+    fill:{color:main text};/* change this to change the color of the links on hover*/
+    transition:all 0.6s ease-in-out;
+    -webkit-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -ms-transition:all 0.6s ease-in-out;}
+
+{block:PermalinkPage}a.clike {
+    position:relative;
+    display:inline-block;}
+
+a.clike .like_button {
+    position:relative!important;}
+
+a.clike .like_button iframe {
+    position:absolute!important;
+    top:0!important;
+    left:0!important;
+    z-index:2!important;
+    opacity:0.0000001!important;
+    width:100%!important;
+    height:100%!important;}
+
+a.clike .liked + svg path {
+    fill:red!important;}{/block:PermalinkPage}
+}
+nav {
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    transition-duration: 0.5s;
+    z-index: 1001;
+    color: #fff;
+    overflow: hidden;
+    width: 300px;
+    height: 180px;
+}
+#mercMenu {
+    width: 0px;
+    right: -60px;
+}
+#mercMenu.open {
+    width: calc(100% - 60px);
+    right: 0px;
+}
+.sidenav {
+    height: calc(100vh - 60px);
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -60px;
+    background-color: #fbfbfb;
+    overflow-x: hidden;
+    transition: 0.5s;
+    text-align:center;
+     z-index: 10000000000000000000001;
+     display: flex;
+     align-items: stretch;
+     flex-wrap: wrap;
+    border: 30px solid {color:borders};
+}
+.sidenav .sideLink {
+    flex: 1 auto;
+    padding: 40px;
+    line-height: 100%;
+    background-color: {color:background};
+    font: 100pt 'poppins';
+    font-weight: 900;
+    min-width: 25%;
+    text-align: center;
+    position: relative;
+    display: -webkit-flex;
+    transition-duration: 0.5s;
+}
+.sidenav .sideLink a {
+    text-decoration:none;
+    color: {color:accent};
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width:100pt;
+    height: 100pt;
+    
+}
+.sidenav .sideLink:nth-child(even) {
+    background-color: #f1f1f1;
+} 
+.sidenav .sideLink a:hover {
+    color: {color:main text};
+}
+.sidenav .sideLink:nth-child(1) {
+    order: -1;
+}
+.sidenav .sideLink:nth-child(2) {
+    order: 1;
+}
+.sidenav .sideLink:nth-child(3) {
+    order: 3;
+}
+.sidenav .sideLink:nth-child(4) {
+    order: 4;
+}
+.sidenav .sideLink:nth-child(5) {
+    order: 1;
+}
+.sidenav .sideLink:nth-child(6) {
+    order: 4;
+}
+.sidenav  {
+    background-color: #f1f1f1;
+}
+.sidenav .break {
+    flex: 1 auto;
+    height: 0px;
+    flex-basis:100%;
+    
+}
+
+  
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+@media screen and (max-width: 1028px) {
+    .sidenav .sideLink {
+        font-size: 82pt;
+    }
+  
+  .sidenav .sideLink:nth-child(2) {
+    order: 1;
+  }
+  .sidenav .sideLink:nth-child(3) {
+    order: 0;
+    background-color: #f1f1f1;
+  }
+    .sidenav .sideLink:nth-child(4) {
+        background-color: {color:background};
+        order: 3;
+    }
+  .sidenav .sideLink:nth-child(3) a {
+    color: {color:main text};
+  }
+}
+@media only screen and (min-width: 1029px) {
+    .sidenav .sideLink:nth-child(1) {
+        order: -1;
+    }
+    .sidenav .sideLink:nth-child(2) {
+        order: -1;
+    }
+    .sidenav .sideLink:nth-child(3) {
+        order: 0;
+    }
+    .sidenav .sideLink:nth-child(3) a {
+        color: {color:main text};
+    }
+    .sidenav .sideLink:nth-child(4) {
+        order: 3;
+    }
+    .sidenav .sideLink:nth-child(5) {
+        order: 3;
+    }
+    .sidenav .sideLink:nth-child(6) {
+        order: 3;
+    }
+} 
+.tags {
+}
+.tags {
+    
+    display: block !important;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    position: relative;
+    overflow-wrap: break-word;
+}
+.tags a {
+    color: {color:main text};
+}
+
+.post.text img {
+    max-width: 300px
+}
+.post .tmblr-full img {
+    max-width: 300px !important;
+}
+
+#mistletoe {
+    float: right;
+    right: 20px;
+    bottom: 20px;
+    background-color: {color:accent};
+    padding: 10px;
+    border-radius: 100%;
+    z-index: 1000001;
+    position: fixed;
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 100%;
+    color: {color:borders};
+}
+#mistletoe a i {
+    color: {color:borders} !important;
+}
+
+</style>
+
+<script>
+// nav
+function openNav() {
+    document.getElementById("mercMenu").style.width = "calc(100% - 60px)";
+    document.getElementById("mercMenu").style.right = "0px";
+}
+
+function closeNav() {
+    document.getElementById("mercMenu").style.width = "0";
+    document.getElementById("mercMenu").style.right = "-60px";
+}
+</script>
+
+
+
+</head>
+<body>
+
+<div id="mistletoe"><a href="https://mistletoe.tumblr.com" title="theme by mistletoe"><i class="cp cp-mistletoe"></i></a></div>
+<div id="top"></div><div id="bottom"></div><div id="left"></div><div id="right"></div>
+<div id="notif" onclick="openNav()">+</div>
+<div id="mercMenu" class="sidenav">
+
+    
+  <div class="sideLink">
+      <a href="{text:menu link 1 url}" title="{text:menu link 1 text}"><span class="cp cp-{text:menu link 1 icon}"></span></a>
+  </div>
+  <div class="sideLink">
+      <a href="{text:menu link 2 url}" title="{text:menu link 2 text}"><span class="cp cp-{text:menu link 2 icon}"></span></a>
+  </div>
+  <div class="sideLink">
+      <a href="javascript:void(0)" onclick="closeNav()" title="exit menu"><span class="cp cp-cancel-alt-o"></span></a>
+  </div>
+  <!-- <div class="break"></div> -->
+  <div class="sideLink">
+      <a href="{text:menu link 3 url}" title="{text:menu link 3 text}"><span class="cp cp-{text:menu link 3 icon}"></span></a>
+  </div>
+  <div class="sideLink">
+      <a href="{text:menu link 4 url}" title="{text:menu link 4 text}"><span class="cp cp-{text:menu link 4 icon}"></span></a>
+  </div>
+  <div class="sideLink">
+      <a href="{text:menu link 5 url}" title="{text:menu link 5 text}"><span class="cp cp-{text:menu link 5 icon}"></span></a>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- header start -->{block:IndexPage}<div id="header">
+    <div class="headText">
+        <h1><a href="https://mistletoe.tumblr.com">{text:blog name title}</a></h1>
+        <h2>{text:blog subtitle}</h2>
+    </div>
+</div> {/block:IndexPage}<!-- end header -->
+
+<!-- begin wrapper -->
+    <div id="wrapper">
+    
+        <div class="sidebar">
+        
+            <div class="sideBox">
+                <div class="sideHead">
+                    <div class="sideImg"><img src="{image:description image}"/></div>
+                    <div class="sideText"><span>{text:description title}</span></div>
+                </div><div class="sideBody">
+                    {description}
+                </div>
+            </div>
+        
+            <div class="sideBox">
+                <div class="sideHead">
+                    <div class="sideImg"><img src="{image:section 2 image}"/></div>
+                    <div class="sideText"><span>{text:section 2 title}</span></div>
+                </div><div class="sideBody">
+                
+                <!--- EDIT "SECTION 2" TEXT HERE --->
+                
+                    <b>12.20</b> <u>highlight</u> the rest of your text here
+                
+                <!--- EDIT "SECTION 2" TEXT ABOVE THIS LINE ONLY --->
+                    
+                </div>
+            </div>
+        
+            <div class="sideBox">
+                <div class="sideHead">
+                    <div class="sideImg"><img src="{image:section 3 image}"/></div>
+                    <div class="sideText"><span>{text:section 3 title}</span></div>
+                </div><div class="sideBody2">
+                
+                <!--- EDIT YOUR "SOCIAL" LINKS HERE --->
+                
+                    <b>main blog</b> <a href="https://mudbloods.tumblr.com">mudbloods</a>
+                    <b>coding cabin</b> <a href="https://codingcabin.tumblr.com/">join us</a>
+                    <b>wecode</b> <a href="https://wecode.jcink.net">visit site</a>
+                    <b>ko-fi</b> <a href="https://ko-fi.com/mistletoe">mistletoe</a>
+                    
+                    
+                <!--- EDIT "SOCIAL" LINKS ABOVE THIS LINE ONLY --->
+                    
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    
+        <div class="posts" id="{PostID}">
+        <!-- BEGIN POST -->
+            {block:Posts}
+            
+            <div class="postTop">
+                
+                {block:Date}
+                <div class="postDate">
+                    <a href="{Permalink}" style="color:{color:main text};"><u>
+                    
+                    
+                        {block:NewDayDate}{ShortMonth} {DayOfMonthWithSuffix}{/block:NewDayDate}
+                        {block:SameDayDate}{TimeAgo}{/block:SameDayDate}
+                        
+                    </u></a>
+                </div>
+                {/block:Date}
+                {block:NotReblog}
+                <div class="reblogImg">
+                <a href="{Permalink}" title="original post">
+                <img src="{PortraitURL-40}"/>
+                </a>
+                </div>
+                {/block:NotReblog}{block:RebloggedFrom}
+                <div class="reblogImg">
+                    <a href="{ReblogParentURL}" title="via {ReblogParentName}">
+                        <img src="{ReblogParentPortraitURL-40}"/>
+                    </a>
+                </div>
+                {/block:RebloggedFrom}
+                
+            </div>
+            
+                {block:Text}
+                    <div class="post text">
+                        {block:Title}
+                            <h3><a href="{Permadivnk}">{Title}</a></h3>
+                        {/block:Title}{Body}
+                    </div>
+                {/block:Text}{block:Photo}
+                    <div class="post photo">
+                        <img src="{PhotoURL-500}" alt="{PhotoAlt}"/>
+
+                        {block:Caption}
+                            <div class="caption">{Caption}</div>
+                        {/block:Caption}
+                    </div>
+                {/block:Photo}{block:Panorama}
+                    <div class="post panorama">
+                        {divnkOpenTag}
+                            <img src="{PhotoURL-Panorama}" alt="{PhotoAlt}"/>
+                        {divnkCloseTag}{block:Caption}
+                            <div class="caption">{Caption}</div>
+                        {/block:Caption}
+                    </div>
+                {/block:Panorama}{block:Photoset}
+                    <div class="post photoset">
+                        {Photoset-500}{block:Caption}
+                            <div class="caption">{Caption}</div>
+                        {/block:Caption}
+                    </div>
+                {/block:Photoset}{block:Quote}
+                <div class="post quote">
+                  <blockquote>{Quote}</blockquote>
+                
+                  {block:Source}
+                  <cite class="caption">
+                	{Source}
+                  </cite>
+                  {/block:Source}
+                </div>
+                {/block:Quote}{block:Link}
+                <div class="post link">
+                  <a {Target} href="{URL}" class="link-name">{Name}</a>
+                
+                  {block:Description}
+                  <div class="caption">
+                	{Description}
+                  </div>
+                  {/block:Description}
+                </div>
+                {/block:Link}{block:Chat}
+                <div class="post chat"> 
+                	<ul>{block:Lines}
+                	<li>
+                	  {block:Label}<span class="label">{Label}</span>{/block:Label} {Line}
+                	</li>
+                	{/block:Lines}</ul>
+                </div>
+                {/block:Chat}{block:Video}
+                    <div class="post video">
+                        {Video-500}{block:Caption}
+                            <div class="caption">{Caption}</div>
+                        {/block:Caption}
+                    </div>
+                {/block:Video}{block:Audio}
+                    <div class="post audio">
+                        {AudioEmbed}{block:Caption}
+                            <div class="caption">{Caption}</div>
+                        {/block:Caption}
+                    </div>
+                {/block:Audio}
+                {block:Answer}
+                <div class="question">
+                    <div class="asker">
+                    <img class="asker-avatar" src="{AskerPortraitURL-96}" alt="">
+                    <span>{Asker}</span> asked:</div>
+                    <div class="asker-question"><span>{Question}</span></div>
+                    
+                </div>
+            
+                {block:Answerer}
+                    <div class="answer">
+                        <div class="answerer">{Answerer}</div>
+                        <div class="answerer-answer">{Answer}</div>
+                        <img class="answerer-avatar" src="{AnswererPortraitURL-96}" alt="">
+                    </div>
+                {/block:Answerer}
+            
+                <div class="replies">
+                    {Replies}
+                </div>
+            {/block:Answer}
+                
+                <div class="postBot">
+                    <div class="controls">
+<a href="{ReblogURL}" target="_blank" class="reblog">
+<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 361.095 361.095" style="enable-background:new 0 0 361.095 361.095;" xml:space="preserve"><g><g><path d="M182.595,325.678c-63.183,0-120.133-42.217-138.267-102.567c-2.833-9.067-12.183-14.167-21.25-11.333    c-9.067,2.833-14.167,12.183-11.333,21.25c22.95,75.933,91.517,126.65,170.85,126.65c98.317,0,178.5-80.183,178.5-178.5    s-80.183-178.5-178.5-178.5c-55.817,0-108.233,26.633-141.667,69.7l-7.083-56.1c-1.133-9.35-9.633-15.867-18.983-14.733    C5.511,2.678-1.005,11.178,0.128,20.528l13.317,103.7c1.133,8.5,8.5,14.733,16.717,14.733c0.567,0,1.417,0,1.983,0l102.567-11.617    c9.35-1.133,16.15-9.35,15.017-18.7s-9.35-16.15-18.7-15.017l-68.85,7.65c26.633-39.95,71.683-64.6,120.417-64.6    c79.617,0,144.5,64.883,144.5,144.5S262.211,325.678,182.595,325.678z"/></g></g></svg>
+</a>
+<a href="#" class="like">{LikeButton}
+<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 442.403 442.403" style="enable-background:new 0 0 442.403 442.403;" xml:space="preserve"><g><g><path d="M213.05,422.652c2.833,1.7,5.95,2.833,9.35,2.833c3.117,0,6.517-0.85,9.35-2.833c7.65-5.1,187.283-123.533,207.683-243.95    c10.483-62.333-8.783-100.867-26.633-122.117c-20.967-24.933-52.133-39.667-83.017-39.667c-10.2,0-20.117,1.7-28.9,5.1    c-43.067,16.15-72.25,44.767-88.117,64.317c-15.583-19.267-42.217-47.033-74.517-58.083c-9.917-3.4-20.683-5.1-32.017-5.1    c-28.9,0-56.383,11.9-75.367,32.867c-16.717,18.417-35.7,53.55-29.75,114.75C13.016,291.185,204.833,417.268,213.05,422.652z     M56.083,78.685c17.283-18.983,38.817-21.817,50.15-21.817c7.367,0,14.45,1.133,20.967,3.4    c39.383,13.317,70.833,63.467,71.4,63.75c3.117,5.1,8.783,8.217,14.733,7.933c5.95,0,11.333-3.4,14.45-8.5    c0.283-0.567,28.617-48.733,85.283-69.983c4.817-1.7,10.767-2.833,16.717-2.833c20.967,0,42.217,10.483,56.95,27.767    c19.267,22.667,25.783,55.533,18.983,94.633c-7.367,43.067-42.5,94.633-101.717,149.317c-33.433,30.883-66.3,54.683-81.6,65.45    c-16.15-11.05-51-36.55-86.417-68.85C74.216,262.285,39.366,209.868,35.116,167.368C31.433,128.552,38.516,97.952,56.083,78.685z"/></g></g></svg>
+</a>
+                </div>
+                
+                {block:NoteCount}
+                <div class="noteCount">
+                    <a href="{Permalink}">{NoteCountWithLabel}</a>
+                </div>
+                {/block:NoteCount}
+                
+                
+                
+                
+                {block:PostNotes}
+                    <div class="pagenotes">
+                    {PostNotes}
+                    </div>
+                {/block:PostNotes}
+                </div>
+                
+                {block:HasTags}<div class="tags">
+                    {block:Tags}<u><a href="{TagUrl}" style="color:{tag color}">#{Tag}</a></u>&nbsp;&nbsp;{/block:Tags}
+                </div>{/block:HasTags}
+                
+                
+            {/block:Posts}
+            <!-- END POST -->
+            </div>
+            
+            
+            
+            
+    </div>
+<!-- end wrapper -->
+
+<!-- pagination -->
+            {block:Pagination}
+            <div class="pagi sticky">
+                {block:PreviousPage}
+                 <a href="{PreviousPage}">
+                     <span class="th th-backward-arrow"></span>
+                 </a>
+                {/block:PreviousPage}
+                
+                {block:NextPage}
+                    <a href="{NextPage}">
+                        <span class="th th-skip-track"></span>
+                    </a>
+                {/block:NextPage}
+            </div>
+            {/block:Pagination}
+
+
+<!-- begin footer -->
+<footer>
+ 
+ <section>
+    <b style="margin-right: 20px;">quick links</b> looking for something?
+    
+    <div class="quicklinks">
+        <row>
+            
+            <a href="{text:quick link 1 url}"><span>{text:quick link 1 text}</span></a>
+            <a href="{text:quick link 2 url}"><span>{text:quick link 2 text}</span></a>
+            <a href="{text:quick link 3 url}"><span>{text:quick link 3 text}</span></a>
+            <a href="{text:quick link 4 url}"><span>{text:quick link 4 text}</span></a>
+            <a href="{text:quick link 5 url}"><span>{text:quick link 5 text}</span></a>
+        </row><row>
+            <a href="{text:quick link 6 url}"><span>{text:quick link 6 text}</span></a>
+            <a href="{text:quick link 7 url}"><span>{text:quick link 7 text}</span></a>
+            <a href="{text:quick link 8 url}"><span>{text:quick link 8 text}</span></a>
+            <a href="{text:quick link 9 url}"><span>{text:quick link 9 text}</span></a>
+            <a href="{text:quick link 10 url}"><span>{text:quick link 10 text}</span></a>
+        </row>
+    </div>
+ </section>
+ 
+ <section>
+    <b style="margin-right: 20px;">{text:bottom bar title}</b> {text:bottom bar subtitle}<p />
+    {text:bottom bar description}
+ </section>
+ 
+ <section style="text-align: right;">
+    <b>{text:affiliates title}</b>
+    
+    <creators>
+    
+        <!--- EDIT AFFILIATES HERE --->
+    
+        <a href="/" title="blog"><img src="https://i.postimg.cc/nhf9cJHn/39.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/FRVDGZDL/4.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/d13LSQ9j/42.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/fTLBjYXV/5.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/1RMvqvgx/7.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/D0f5NXMY/8.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/9QwbsVLV/9.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/fTGmtdvn/28.png"/></a>
+        <a href="/" title="blog"><img src="https://i.postimg.cc/4Nqb6qs0/18.png"/></a>
+        
+        <!--- EDIT AFFILIATES ABOVE THIS LINE ONLY --->
+    </creators>
+    
+ </section>
+   
+</footer>
+<!-- end footer -->
+
+</body>
+</html>
