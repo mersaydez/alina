@@ -811,42 +811,6 @@ iframe.tmblr-iframe {
     top:30px !important;
     right: 30px;
 }
-.ccontrols { position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 10001;
-        margin-right: 30px;
-    margin-top: 30px;} 
-
-.ccontrols a {
-    display:block;
-    float:left;
-    margin:4px!important;
-    width:13px;
-    height:13px;
-    background:{color:borders};/* change this to change the background of the links */
-    padding:5px;
-    line-height:1!important;}
-
-.ccontrols a svg {
-    width:13px;
-    height:13px;}
-
-.ccontrols a svg path {
-    fill:{color:dark accent};/* change this to change the color of the links */
-    transition:all 0.6s ease-in-out;
-    -webkit-transition:all 0.6s ease-in-out;
-    -o-transition:all 0.6s ease-in-out;
-    -moz-transition:all 0.6s ease-in-out;
-    -ms-transition:all 0.6s ease-in-out;}
-
-.ccontrols a:hover svg path {
-    fill:{color:main text};/* change this to change the color of the links on hover*/
-    transition:all 0.6s ease-in-out;
-    -webkit-transition:all 0.6s ease-in-out;
-    -o-transition:all 0.6s ease-in-out;
-    -moz-transition:all 0.6s ease-in-out;
-    -ms-transition:all 0.6s ease-in-out;}
 
 {block:PermalinkPage}a.clike {
     position:relative;
